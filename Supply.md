@@ -8,7 +8,7 @@
 
 ```js
 let req = new Request('https://bitcoinexplorer.org/api/blockchain/coins');
-let blockHeight = await req.loadString();
+let Supply = await req.loadString();
 
 let widget = await createWidget();
 
