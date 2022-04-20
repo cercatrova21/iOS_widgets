@@ -1,7 +1,9 @@
 # Lightning Network.
 
 Firts number: Number of Nodes.
+
 Middle number: Number of Channels.
+
 Last number: Network Capacity.
 
 ## Tutorial
@@ -69,8 +71,6 @@ async function createWidget() {
     middle.font = Font.lightSystemFont(35);
     
   middle.textColor = new Color("#eeeeee")  
-  
-  heading.textColor = new Color("#eeeeee")
   
 
   down.centerAlignText();
