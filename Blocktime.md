@@ -59,12 +59,12 @@ async function createWidget()
 5. Click close and done
 6. Go to the homescreen, press and hold for a few seconds to make the icons move. Tab on the top left corner the "+" symbol
 
-<img src="./images/2.png" style="zoom: 50%;" />
+<img src="./images/2.PNG" style="zoom: 50%;" />
 
 7. Scroll down untill you find the "Scriptable" App. Select it and scroll to the right for the full sized version.
 
-<img src="./images/3.png" style="zoom: 30%;" />
+<img src="./images/3.PNG" style="zoom: 30%;" />
 
 8. Click "Add Widget" and tab the new created widget to edit it. Select the created script and you're done :)
 
-<img src="./images/4.png" style="zoom: 30%;" />
+<img src="./images/4.PNG" style="zoom: 30%;" />
