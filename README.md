@@ -1,4 +1,4 @@
-# Blocktime and mempool Widgets for iOS
+# Bitcoin Widgets for iOS
 
 [Tutorial for Blocktime](https://github.com/cercatrova21/iOS_widgets/blob/main/Blocktime.md)
 
