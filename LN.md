@@ -42,9 +42,9 @@ async function createWidget() {
 
 
   // Add widget heading  
-   let heading = listwidget.addText(nodes + "    ");    
-   let middle = listwidget.addText(channels + "    "); 
-   let down = listwidget.addText(capacity + "    "); 
+   let heading = listwidget.addText(nodes + " 📟");    
+   let middle = listwidget.addText(channels + " 🔀"); 
+   let down = listwidget.addText(capacity + " ☣️"); 
    
 
   heading.centerAlignText();
@@ -76,11 +76,11 @@ async function createWidget() {
   down.centerAlignText();
   
   if(capacity < 10,000)
-    down.font = Font.lightSystemFont(60);
+    down.font = Font.lightSystemFont(50);
   else if(capacity < 100,000)
-     down.font = Font.lightSystemFont(50);
+     down.font = Font.lightSystemFont(40);
   else
-    down.font = Font.lightSystemFont(35);
+    down.font = Font.lightSystemFont(30);
     
   down.textColor = new Color("#eeeeee")    
     
