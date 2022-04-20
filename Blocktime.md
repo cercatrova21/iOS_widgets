@@ -1,6 +1,6 @@
 # Blocktime
 
-<img src="./images/1.png" style="zoom: 67%;" />
+<img src="./images/1.PNG" style="zoom: 67%;" />
 
 ## Tutorial
 
