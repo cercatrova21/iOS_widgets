@@ -3,8 +3,8 @@
 ## Tutorial
 
 1. Install the app "Scriptable" -> [Apple Appstore - Scriptable](https://apps.apple.com/ch/app/scriptable/id1405459188?l=en)
-1. Open the app and click the "+" sign on the top right corner
-1. Paste the following script created by [SN](https://twitter.com/__B__T__C__):
+2. Open the app and click the "+" sign on the top right corner
+3. Paste the following script created by [SN](https://twitter.com/__B__T__C__):
 
 ```js
 let req = new Request('https://bitcoinexplorer.org/api/blockchain/coins');
