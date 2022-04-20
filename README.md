@@ -12,4 +12,4 @@
 
 The idea and script was created by [Janna](https://twitter.com/Janna3257) and [SN](https://twitter.com/__B__T__C__). I'm only the tutorial dude
 
-<img src="/images/7.jpg" style="zoom: 50%;" />
+<img src="/images/8.jpg" style="zoom: 50%;" />
