@@ -43,21 +43,46 @@ async function createWidget() {
 
   // Add widget heading  
    let heading = listwidget.addText(nodes + "    ");    
-   let heading = listwidget.addText(channels + "    "); 
-   let heading = listwidget.addText(capacity + "    "); 
+   let middle = listwidget.addText(channels + "    "); 
+   let down = listwidget.addText(capacity + "    "); 
    
 
   heading.centerAlignText();
   
-  if(capacity < 1,000.00)
+  if(nodes < 1,000)
     heading.font = Font.lightSystemFont(60);
-  else if(capacity < 10,000.00)
+  else if(nodes < 10,000)
      heading.font = Font.lightSystemFont(50);
   else
     heading.font = Font.lightSystemFont(35);
     
   heading.textColor = new Color("#eeeeee")
   
+
+  middle.centerAlignText();
+  
+  if(channels < 99,000)
+    middle.font = Font.lightSystemFont(60);
+  else if(channels < 100,000)
+     middle.font = Font.lightSystemFont(50);
+  else
+    middle.font = Font.lightSystemFont(35);
+    
+  middle.textColor = new Color("#eeeeee")  
+  
+  heading.textColor = new Color("#eeeeee")
+  
+
+  down.centerAlignText();
+  
+  if(capacity < 10,000)
+    down.font = Font.lightSystemFont(60);
+  else if(capacity < 100,000)
+     down.font = Font.lightSystemFont(50);
+  else
+    down.font = Font.lightSystemFont(35);
+    
+  down.textColor = new Color("#eeeeee")    
     
 
   // Return the created widget
