@@ -8,7 +8,7 @@
 
 ```js
 let req = new Request('https://bitcoinexplorer.org/api/price/usd/sats');
-let blockHeight = await req.loadString();
+let MoscowTime = await req.loadString();
 
 let widget = await createWidget();
 
