@@ -9,3 +9,5 @@
 
 
 The idea and script was created by [Janna](https://twitter.com/Janna3257). I'm only the tutorial dude
+
+<img src="/images/7.jpg" style="zoom: 50%;" />
