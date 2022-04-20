@@ -52,11 +52,11 @@ async function createWidget() {
   heading.centerAlignText();
   
   if(nodes < 1,000)
-    heading.font = Font.lightSystemFont(60);
+    heading.font = Font.boldSystemFont(60);
   else if(nodes < 10,000)
-     heading.font = Font.lightSystemFont(50);
+     heading.font = Font.boldSystemFont(50);
   else
-    heading.font = Font.lightSystemFont(35);
+    heading.font = Font.boldSystemFont(35);
     
   heading.textColor = new Color("#eeeeee")
   
@@ -64,11 +64,11 @@ async function createWidget() {
   middle.centerAlignText();
   
   if(channels < 99,000)
-    middle.font = Font.lightSystemFont(60);
+    middle.font = Font.boldSystemFont(60);
   else if(channels < 100,000)
-     middle.font = Font.lightSystemFont(50);
+     middle.font = Font.boldSystemFont(50);
   else
-    middle.font = Font.lightSystemFont(35);
+    middle.font = Font.boldSystemFont(35);
     
   middle.textColor = new Color("#eeeeee")  
   
@@ -76,11 +76,11 @@ async function createWidget() {
   down.centerAlignText();
   
   if(capacity < 10,000)
-    down.font = Font.lightSystemFont(50);
+    down.font = Font.boldSystemFont(50);
   else if(capacity < 100,000)
-     down.font = Font.lightSystemFont(40);
+     down.font = Font.boldSystemFont(40);
   else
-    down.font = Font.lightSystemFont(30);
+    down.font = Font.boldSystemFont(30);
     
   down.textColor = new Color("#eeeeee")    
     
