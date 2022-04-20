@@ -45,7 +45,7 @@ async function createWidget()
   // Add widget heading
   let heading = listwidget.addText(Supply);
   heading.centerAlignText();
-  heading.font = Font.lightSystemFont(30);
+  heading.font = Font.boldSystemFont(30);
   heading.textColor = new Color("#eeeeee")
 
   // Return the created widget
