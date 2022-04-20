@@ -8,4 +8,4 @@
 
 
 
-The idea and script was created by [Janna](https://twitter.com/Janna3257). I'm only tutorial dude
+The idea and script was created by [Janna](https://twitter.com/Janna3257). I'm only the tutorial dude
