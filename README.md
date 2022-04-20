@@ -10,6 +10,8 @@
 
 [Tutorial for Difficulty Adjustment](https://github.com/cercatrova21/iOS_widgets/blob/main/Difficulty.md)
 
+[Tutorial for Lightning Network](https://github.com/cercatrova21/iOS_widgets/blob/main/LN.md)
+
 The idea and script was created by [Janna](https://twitter.com/Janna3257) and [SN](https://twitter.com/__B__T__C__). I'm only the tutorial dude
 
 <img src="/images/8.jpg" style="zoom: 50%;" />
