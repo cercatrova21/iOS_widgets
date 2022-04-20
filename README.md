@@ -8,7 +8,7 @@
 
 [Tutorial for MoscowTime](https://github.com/cercatrova21/iOS_widgets/blob/main/MoscowTime.md)
 
-[Tutorial for supply](https://github.com/cercatrova21/iOS_widgets/blob/main/Supply.md)
+[Tutorial for Supply](https://github.com/cercatrova21/iOS_widgets/blob/main/Supply.md)
 
 
 
