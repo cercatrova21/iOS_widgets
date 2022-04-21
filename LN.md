@@ -1,6 +1,6 @@
 # Lightning Network.
 
-Firts number: Number of Nodes.
+First number: Number of Nodes.
 
 Middle number: Number of Channels.
 
