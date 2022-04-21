@@ -18,7 +18,9 @@ let json = await req.loadJSON();
 
 nodes = json.numberofnodes.toString();
 channels = json.numberofchannels.toString();
-capacity = json.networkcapacity.toString();
+capacitycalc = json.networkcapacity / 100000000;
+capacitycalc = capacitycalc.toFixed(2);
+capacity = capacitycalc.toString();
 
 let widget = await createWidget();
 
