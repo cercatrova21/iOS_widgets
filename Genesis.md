@@ -43,7 +43,7 @@ async function createWidget()
 
 
   // Add widget heading
-  let heading = listwidget.addImage(Genesis);
+  let heading = listwidget.addImage(Genesis).centerAlignImage();
   
   // Return the created widget
   return listwidget;
