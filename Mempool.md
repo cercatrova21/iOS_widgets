@@ -39,11 +39,11 @@ async function createWidget() {
   let listwidget = new ListWidget();
 
   // Set new background color
-  listwidget.backgroundColor = new Color("#4b374a");
+  listwidget.backgroundColor = new Color("#000000");
   
   // Add titel
   let wdgTitel = listwidget.addText("Mempool");
-  let wdgDesc = listwidget.addText("fast           halfHour           hour");
+  let wdgDesc = listwidget.addText("High           Medium           Low");
   // Add widget heading  
    let heading = listwidget.addText(fast + "    " + halfHour + "    " + hour);    
 
@@ -51,15 +51,15 @@ async function createWidget() {
   wdgDesc.centerAlignText();
   heading.centerAlignText();
   
-  wdgTitel.font = Font.lightSystemFont(24);
+  wdgTitel.font = Font.boldSystemFont(24);
   wdgDesc.font = Font.lightSystemFont(16);
   
   if(fast < 10)
-    heading.font = Font.lightSystemFont(73);
+    heading.font = Font.boldSystemFont(73);
   else if(fast < 100)
-     heading.font = Font.lightSystemFont(54);
+     heading.font = Font.boldSystemFont(54);
   else
-    heading.font = Font.lightSystemFont(43);
+    heading.font = Font.boldSystemFont(43);
     
   wdgTitel.textColor = new Color("#eeeeee")
   wdgDesc.textColor = new Color("#eeeeee")  
