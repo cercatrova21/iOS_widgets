@@ -6,7 +6,7 @@ Middle number: suggested fee for a tx to get in a block the next half hour
 
 Right number: suggested fee for a tx to get in a block the next hour
 
-<img src="./images/6.PNG" style="zoom: 67%;" />
+<img src="./images/mempool.jpg" style="zoom: 67%;" />
 
 ## Tutorial
 

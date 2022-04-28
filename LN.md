@@ -1,5 +1,7 @@
 # Lightning Network.
 
+<img src="./images/lightning.jpg" style="zoom: 67%;" />
+
 First number: Number of Nodes.
 
 Middle number: Number of Channels.

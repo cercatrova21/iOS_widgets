@@ -1,5 +1,7 @@
 # Difficulty Adjustment
 
+<img src="./images/diff.jpg" style="zoom: 67%;" />
+
 ## Tutorial
 
 1. Install the app "Scriptable" -> [Apple Appstore - Scriptable](https://apps.apple.com/ch/app/scriptable/id1405459188?l=en)
