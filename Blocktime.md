@@ -2,7 +2,7 @@
 
 <img src="./images/blocktime.jpg" style="zoom: 67%;" />
 
-<img src="./images/blocktime_gap.jpg" style="zoom: 67%;" />
+<img src="./images/blocktime_gap.jpeg" style="zoom: 67%;" />
 
 ## Tutorial
 
