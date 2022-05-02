@@ -45,13 +45,13 @@ async function createWidget()
   // Add titel
   let wdgTitel = listwidget.addText("Moscow time");
   wdgTitel.centerAlignText();
-  wdgTitel.font = Font.lightSystemFont(24);
+  wdgTitel.font = Font.boldSystemFont(24);
   wdgTitel.textColor = new Color("#eeeeee")
 
   // Add widget heading
   let heading = listwidget.addText(MoscowTime);
   heading.centerAlignText();
-  heading.font = Font.lightSystemFont(73);
+  heading.font = Font.boldSystemFont(73);
   heading.textColor = new Color("#eeeeee")
 
   // Return the created widget
