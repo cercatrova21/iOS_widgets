@@ -1,6 +1,6 @@
 # Moscow Time
 
-<img src="./images/moscowtime.jpg" style="zoom: 67%;" />
+<img src="./images/mmoscowtime_simple.jpg" style="zoom: 67%;" />
 
 ## Tutorial
 
@@ -9,12 +9,16 @@
 3. Paste the following script created by [SN](https://twitter.com/__B__T__C__):
 
 ```js
+//
+// 2022-04 Twitter:@janna3257 Github:@ux3257
+//
+
 
 // get Sats per usd from bitcoinexplorer.org
 let req = new Request('https://bitcoinexplorer.org/api/price/usd/sats');
 let MoscowTime = await req.loadString();
 
-// Insert delimiter between digits to get proper MoscowTime
+// Insert delimiter between Sats/usd digits to get proper MoscowTime
 let position = MoscowTime.length-2;
 let delimiter = ":";
 MoscowTime = [MoscowTime.slice(0, position), delimiter, MoscowTime.slice(position)].join('');
@@ -33,7 +37,6 @@ else
   // Show the medium widget inside the app
   widget.presentMedium();
   }
-
 Script.complete();
 
 
@@ -43,14 +46,7 @@ async function createWidget()
   let listwidget = new ListWidget();
 
   // Set new background color
-  listwidget.backgroundColor = new Color("#000000");
-
-
-  // Add titel
-  let wdgTitel = listwidget.addText("Moscow time");
-  wdgTitel.centerAlignText();
-  wdgTitel.font = Font.lightSystemFont(24);
-  wdgTitel.textColor = new Color("#eeeeee")
+  listwidget.backgroundColor = new Color("#003232");
 
   // Add widget heading
   let heading = listwidget.addText(MoscowTime);
