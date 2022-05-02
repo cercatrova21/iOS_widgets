@@ -9,7 +9,7 @@
 3. Paste the following script created by [SN](https://twitter.com/__B__T__C__):
 
 ```js
-let req = new Request('https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Bitcoin-Genesis-block.jpg/1200px-Bitcoin-Genesis-block.jpg');
+let req = new Request('https://pbs.twimg.com/media/FIJI-WNWYAghQq6.jpg');
 let Genesis = await req.loadImage();
 
 let widget = await createWidget();
