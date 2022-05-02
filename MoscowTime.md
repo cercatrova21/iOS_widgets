@@ -9,18 +9,26 @@
 3. Paste the following script created by [SN](https://twitter.com/__B__T__C__):
 
 ```js
+
+// get Sats per usd from bitcoinexplorer.org
 let req = new Request('https://bitcoinexplorer.org/api/price/usd/sats');
 let MoscowTime = await req.loadString();
 
+// Insert delimiter between digits to get proper MoscowTime
+let position = MoscowTime.length-2;
+let delimiter = ":";
+MoscowTime = [MoscowTime.slice(0, position), delimiter, MoscowTime.slice(position)].join('');
+
 let widget = await createWidget();
 
+
 // Check where the script is running
-if (config.runsInWidget) 
+if (config.runsInWidget)
   {
   // Runs inside a widget so add it to the homescreen widget
   Script.setWidget(widget);
-  } 
-else 
+  }
+else
   {
   // Show the medium widget inside the app
   widget.presentMedium();
@@ -28,19 +36,15 @@ else
 
 Script.complete();
 
-async function createWidget() 
-  {
-    
+
+async function createWidget()
+  {    
   // Create new empty ListWidget instance
   let listwidget = new ListWidget();
 
   // Set new background color
   listwidget.backgroundColor = new Color("#000000");
 
- // add 10 second to now
-  let nextRefresh = Date.now() + 1000*10 
-
-  listwidget.refreshAfterDate = new Date(nextRefresh)
 
   // Add titel
   let wdgTitel = listwidget.addText("Moscow time");
