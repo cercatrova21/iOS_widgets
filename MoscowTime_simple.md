@@ -1,6 +1,6 @@
 # Moscow Time
 
-<img src="./images/mmoscowtime_simple.jpg" style="zoom: 67%;" />
+<img src="./images/moscowtime_simple.jpg" style="zoom: 67%;" />
 
 ## Tutorial
 
