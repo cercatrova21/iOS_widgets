@@ -4,7 +4,7 @@
 
 [Tutorial for Mempool Fees Simple.](https://github.com/cercatrova21/iOS_widgets/blob/main/Mempool.md)
 
-[Tutorial for MoscowTime_simple.](https://github.com/cercatrova21/iOS_widgets/blob/main/MoscowTime_simple.md)
+[Tutorial for MoscowTime Simple.](https://github.com/cercatrova21/iOS_widgets/blob/main/MoscowTime_simple.md)
 
 [Tutorial for MoscowTime.](https://github.com/cercatrova21/iOS_widgets/blob/main/MoscowTime.md)
 
