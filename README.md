@@ -2,7 +2,7 @@
 
 [Tutorial for Blocktime.](https://github.com/cercatrova21/iOS_widgets/blob/main/Blocktime.md)
 
-[Tutorial for Mempool Fees Simple.](https://github.com/cercatrova21/iOS_widgets/blob/main/Mempool.md)
+[Tutorial for Mempool Fees Simple.](https://github.com/cercatrova21/iOS_widgets/blob/main/mempool_simple.md)
 
 [Tutorial for MoscowTime Simple.](https://github.com/cercatrova21/iOS_widgets/blob/main/MoscowTime_simple.md)
 
