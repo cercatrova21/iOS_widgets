@@ -1,4 +1,6 @@
-# Moscow Time
+# Moscow Time Simple
+
+The 'Moscow Time Simple Widget' shows the current number of Sats per Dollar in Moskow-Time format.
 
 <img src="./images/moscowtime_simple.jpg" style="zoom: 67%;" />
 
@@ -6,7 +8,7 @@
 
 1. Install the app "Scriptable" -> [Apple Appstore - Scriptable](https://apps.apple.com/ch/app/scriptable/id1405459188?l=en)
 2. Open the app and click the "+" sign on the top right corner
-3. Paste the following script created by [SN](https://twitter.com/__B__T__C__):
+3. Paste the following script created by [Janna](https://twitter.com/Janna3257):
 
 ```js
 //

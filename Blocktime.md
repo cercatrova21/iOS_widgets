@@ -1,6 +1,9 @@
 # Blocktime
 
-<img src="./images/blocktime.jpg" style="zoom: 67%;" />
+The 'Blocktime Widget' shows the current blocktime aka blockheight.
+
+In Line 17, 20, 23 of the script a thousands delimiter can be choosen.
+
 
 <img src="./images/blocktime_gap.jpg" style="zoom: 67%;" />
 
@@ -21,10 +24,11 @@ let req = new Request('https://mempool.space/api/blocks/tip/height');
 let blockHeight = await req.loadString();
 
 
-// Insert delimiter between digits -> easier to read. If not desired put "//" bevor line 25-36
+// Insert thousands delimiter -> easier to read.
+// Select a delimiter: V1(default), V2 or V3.
+// If delimiter is not desired put "//" bevor line 26 & 27
 let position = blockHeight.length-3;
 
-// Select the delimiter: V1(default), V2, V3
 // V1: set " " as delimiter
 let delimiter = " ";
 
@@ -34,6 +38,7 @@ let delimiter = " ";
 // V3: set "," as delimiter
 //let delimiter = ",";
 
+// If thousands delimiter is not desired put "//" bevor ne next two lines
 blockHeight = [blockHeight.slice(0, position), delimiter, blockHeight.slice(position)].join('');
 let widget = await createWidget();
 
@@ -73,7 +78,7 @@ async function createWidget()
 }
 ```
 
-4. Click on the bottom left corner the "sliders" to name your script. For example: Blockheight
+4. Click on the bottom left corner the "sliders" to name your script. For example: Blocktime
 5. Click close and done
 6. Go to the homescreen, press and hold for a few seconds to make the icons move. Tab on the top left corner the "+" symbol
 
