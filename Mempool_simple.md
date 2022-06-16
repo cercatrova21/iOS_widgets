@@ -1,10 +1,13 @@
-# Mempool
+# Mempool Simple
 
-Left number: Mempool suggested fee for a fast transaction
+The 'Mempool Simple Widget' gives a rough overview of the current mempool situation:
 
-Middle number: suggested fee for a tx to get in a block the next half hour
+- Left number: Mempool suggested fee for a fast transaction
 
-Right number: suggested fee for a tx to get in a block the next hour
+- Middle number: suggested fee for a tx to get in a block the next half hour
+
+- Right number: suggested fee for a tx to get in a block the next hour
+
 
 <img src="./images/mempool_simple.jpg" style="zoom: 67%;" />
 
@@ -58,7 +61,7 @@ let heading = listwidget.addText(fast + "    " + halfHour + "    " + hour);
   if(fast < 10)
     heading.font = Font.lightSystemFont(73);
   else if(fast < 100)
-     heading.font = Font.lightSystemFont(54);
+     heading.font = Font.lightSystemFont(51);
   else
     heading.font = Font.lightSystemFont(43);
 
