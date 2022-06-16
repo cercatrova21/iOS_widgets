@@ -61,7 +61,7 @@ let heading = listwidget.addText(fast + "    " + halfHour + "    " + hour);
   if(fast < 10)
     heading.font = Font.lightSystemFont(73);
   else if(fast < 100)
-     heading.font = Font.lightSystemFont(54);
+     heading.font = Font.lightSystemFont(51);
   else
     heading.font = Font.lightSystemFont(43);
 
