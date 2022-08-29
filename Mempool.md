@@ -12,7 +12,7 @@ Right number: suggested fee for a tx to get in a block the next hour
 
 1. Install the app "Scriptable" -> [Apple Appstore - Scriptable](https://apps.apple.com/ch/app/scriptable/id1405459188?l=en)
 1. Open the app and click the "+" sign on the top right corner
-1. Paste the following script created by [Janna](https://twitter.com/Janna3257):
+1. Paste the following script created by [Janna](https://twitter.com/ux3257_):
 
 ```js
 let req = new Request('https://mempool.space/api/v1/fees/recommended');
@@ -40,7 +40,7 @@ async function createWidget() {
 
   // Set new background color
   listwidget.backgroundColor = new Color("#000000");
-  
+
   // Add titel
   let wdgTitel = listwidget.addText("Mempool");
   let wdgDesc = listwidget.addText("High           Medium           Low");
@@ -50,21 +50,21 @@ async function createWidget() {
   wdgTitel.centerAlignText();
   wdgDesc.centerAlignText();
   heading.centerAlignText();
-  
+
   wdgTitel.font = Font.boldSystemFont(24);
   wdgDesc.font = Font.lightSystemFont(16);
-  
+
   if(fast < 10)
     heading.font = Font.boldSystemFont(73);
   else if(fast < 100)
      heading.font = Font.boldSystemFont(54);
   else
     heading.font = Font.boldSystemFont(43);
-    
+
   wdgTitel.textColor = new Color("#eeeeee")
   wdgDesc.textColor = new Color("#eeeeee")  
   heading.textColor = new Color("#eeeeee")
-  
+
   // Return the created widget
   return listwidget;
 }
