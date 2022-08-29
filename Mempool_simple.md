@@ -15,11 +15,11 @@ The 'Mempool Simple Widget' gives a rough overview of the current mempool situat
 
 1. Install the app "Scriptable" -> [Apple Appstore - Scriptable](https://apps.apple.com/ch/app/scriptable/id1405459188?l=en)
 1. Open the app and click the "+" sign on the top right corner
-1. Paste the following script created by [Janna](https://twitter.com/Janna3257):
+1. Paste the following script created by [Janna](https://twitter.com/ux3257_):
 
 ```js
 //
-// 2022-04 Twitter:@janna3257 Github:@ux3257
+// 2022-04 Twitter:@ux3257_ Github:@ux3257
 //
 
 // get current mempool infos from mempool.space

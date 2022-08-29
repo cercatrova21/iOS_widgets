@@ -8,15 +8,15 @@ The 'Moscow Time Simple Widget' shows the current number of Sats per Dollar in M
 
 1. Install the app "Scriptable" -> [Apple Appstore - Scriptable](https://apps.apple.com/ch/app/scriptable/id1405459188?l=en)
 2. Open the app and click the "+" sign on the top right corner
-3. Paste the following script created by [Janna](https://twitter.com/Janna3257):
+3. Paste the following script created by [Janna](https://twitter.com/ux3257_):
 
 ```js
 //
-// 2022-04 Twitter:@janna3257 Github:@ux3257
+// 2022-04 Twitter:@ux3257_ Github:@ux3257
 //
 
 
-// get price per Bitcoin in usd from bitcoinpricecalc.com
+// get price per bitcoin in usd from bitcoinpricecalc.com
 let req = new Request('https://bitcoinpricecalc.com/api?action=price&currency=USD');
 let json = await req.loadJSON();
 
@@ -26,7 +26,7 @@ satsPerDollar = (100000000/price).toString();
 // cut digits after decimal
 MoscowTime = satsPerDollar.split(".")[0];
 
-// Insert delimiter between Sats/usd digits to get proper MoscowTime
+// Insert delimiter between sats/usd digits to get proper MoscowTime
 let position = MoscowTime.length-2;
 let delimiter = ":";
 MoscowTime = [MoscowTime.slice(0, position), delimiter, MoscowTime.slice(position)].join('');
